@@ -43,6 +43,8 @@ As you can see it uses one X-line and 6 DR-lines to scan all the button
 presses. The datasheet contains a nice table on page 9 to lookup the command
 bits for those X/DR combinations.
 
+![Excerpt from the Command bits lookup table (data sheet page 9)](img/command-bits.png)
+
 ## System bits
 
 
