@@ -1,11 +1,11 @@
 # Whisper Pool remote replacement
 
 > TLDR: Whirlpool remote didn't work. I replaced it with an Arduino
-> based remote that sent out the same (RC5)[https://en.wikipedia.org/wiki/RC-5] remote 
-> commands using the (Arduino IR-Remote library)[https://github.com/z3t0/Arduino-IRremote].
+> based remote that sent out the same [RC5](https://en.wikipedia.org/wiki/RC-5) remote 
+> commands using this [Arduino IR-Remote library](https://github.com/z3t0/Arduino-IRremote).
 >
-> You can find the code (here)[firmware] and the schematics and
-> pcb design (here)[hardware]
+> You can find the code [here](firmware) and the schematics and
+> pcb design [here](hardware)
 
 I think this same solution should work for following whirlpools from Villeroy & Boch:
 
@@ -35,14 +35,14 @@ was a likely fix.
 ## Teardown an protocol identification
 
 The teardown revealed an Philips IC that sends out commands via the 
-(RC5 protocol)[https://en.wikipedia.org/wiki/RC-5] and scanned the 
+[RC5 protocol](https://en.wikipedia.org/wiki/RC-5) and scanned the 
 buttons to determine what commands to send out. Full information
-on the teardown and the protocol/command identification (here)[docs/teardown-and-protocol-identification.md]
+on the teardown and the protocol/command identification [here](docs/teardown-and-protocol-identification.md)
 
 ## The replacement
 
 Once the protocol was found, it was fairly easy to find an Arduino library that 
-was able to send out RC5 commands: (Arduino IR-Remote)[https://github.com/z3t0/Arduino-IRremote]
+was able to send out RC5 commands: [Arduino IR-Remote](https://github.com/z3t0/Arduino-IRremote)
 
 
 
