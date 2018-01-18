@@ -26,7 +26,7 @@ to be glued together, there was no easy way to clean it. After trying to rinse i
 out with some household chemicals through the battery compartment, it still didn't 
 work.
 
-![The offending remote (picture from the web)](docs/img/combipool-remote.jpg | width=300)
+<img src="docs/img/combipool-remote.jpg" width="200" alt="The offending remote (picture from the web)">
 
 There are replacement remotes availble, but they are about 150 euros. I like a 
 working whirlpool, but not that much. So I decided to tear it down and see if there
