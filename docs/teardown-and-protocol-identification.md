@@ -57,14 +57,14 @@ which has these system bits: ```11111```.
 
 ## Key scanning and command construction (command bits)
 
-With a multimeter I checked which buttons correspond to what pins on the 
-RC5 IC:
+With a multimeter I checked how the buttons wires corresponded to the pins on the 
+RC5 IC. It turns out that one wire was connected to the X5 pin and all the other
+pins to 6 DR-lines.
 
 ![Pin mapping of the button connector](img/pin-mapping.png)
 
-As you can see it uses one X-line and 6 DR-lines to scan all the button
-presses. The datasheet contains a nice table on page 9 to lookup the command
-bits for those X/DR combinations.
+When a buttons is pressed, it connects on of the DR pins to the X5 pin. The datasheet 
+contains a nice table on page 9 to lookup the command bits for those X/DR combinations.
 
 ![Excerpt from the Command bits lookup table (data sheet page 9)](img/command-bits.png)
 
