@@ -6,7 +6,7 @@
 >
 > You can find the code [here](firmware) and the schematics and
 > pcb design [here](hardware)
-
+>
 > I think this same solution should work for following whirlpools from Villeroy & Boch:
 > 
 > * Whisper Airpool
