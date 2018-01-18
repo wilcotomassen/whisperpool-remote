@@ -70,13 +70,12 @@ contains a nice table on page 9 to lookup the command bits for those X/DR combin
 
 ## Complete commands
 
-| Code | Start bit | Field bit | Control bit | Address bits | Command bits | => | Complete command | 
-| -----|-----------|-----------|-------------|--------------|--------------|:--:|-----------------:|
-| 40   | 1         | 1         | 1/0 (toggle)| 11111        | 101000       | => | 11111111101000   |
-| 41   | 1         | 1         | 1/0 (toggle)| 11111        | 101001       | => | 11111111101001   |
-| 42   | 1         | 1         | 1/0 (toggle)| 11111        | 101010       | => | 11111111101010   |
-| 43   | 1         | 1         | 1/0 (toggle)| 11111        | 101011       | => | 11111111101011   |
-| 44   | 1         | 1         | 1/0 (toggle)| 11111        | 101100       | => | 11111111101100   |
-| 45   | 1         | 1         | 1/0 (toggle)| 11111        | 101101       | => | 11111111101101   |
-
+| Button                                                 | Code | Start bit | Field bit | Control bit | Address bits | Command bits | => | Complete command | 
+|--------------------------------------------------------|------|-----------|-----------|-------------|--------------|--------------|:--:|-----------------:|
+| <img src="img/button-06.png" width="40" height="40" /> | 40   | 1         | 1         | 1/0         | 11111        | 101000       | => | 11111111101000   |
+| <img src="img/button-03.png" width="40" height="40" /> | 41   | 1         | 1         | 1/0         | 11111        | 101001       | => | 11111111101001   |
+| <img src="img/button-04.png" width="40" height="40" /> | 42   | 1         | 1         | 1/0         | 11111        | 101010       | => | 11111111101010   |
+| <img src="img/button-02.png" width="40" height="40" /> | 43   | 1         | 1         | 1/0         | 11111        | 101011       | => | 11111111101011   |
+| <img src="img/button-05.png" width="40" height="40" /> | 44   | 1         | 1         | 1/0         | 11111        | 101100       | => | 11111111101100   |
+| <img src="img/button-01.png" width="40" height="40" /> | 45   | 1         | 1         | 1/0         | 11111        | 101101       | => | 11111111101101   |
 
