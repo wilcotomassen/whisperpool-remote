@@ -55,7 +55,7 @@ Z3 (pin 6) and DR7 (pin 9). From the System matrix in the datasheet on
 page 10, this dermines the system number 31 (a reserved system number), 
 which has these system bits: ```11111```. 
 
-## Key scanning and command construction (command bits)
+## Command bits (via key scanning)
 
 With a multimeter I checked how the buttons wires corresponded to the pins on the 
 RC5 IC. It turns out that one wire was connected to the X5 pin and all the other
@@ -67,4 +67,15 @@ When a buttons is pressed, it connects on of the DR pins to the X5 pin. The data
 contains a nice table on page 9 to lookup the command bits for those X/DR combinations.
 
 ![Excerpt from the Command bits lookup table (data sheet page 9)](img/command-bits.png)
+
+## Complete commands
+
+| Button                                                 | Code | Start bit | Field bit | Control bit | Address bits | Command bits | => | Complete command | 
+|--------------------------------------------------------|------|-----------|-----------|-------------|--------------|--------------|:--:|-----------------:|
+| <img src="img/button-06.png" width="40" height="40" /> | 40   | 1         | 1         | 1/0         | 11111        | 101000       | => | 11111111101000   |
+| <img src="img/button-03.png" width="40" height="40" /> | 41   | 1         | 1         | 1/0         | 11111        | 101001       | => | 11111111101001   |
+| <img src="img/button-04.png" width="40" height="40" /> | 42   | 1         | 1         | 1/0         | 11111        | 101010       | => | 11111111101010   |
+| <img src="img/button-02.png" width="40" height="40" /> | 43   | 1         | 1         | 1/0         | 11111        | 101011       | => | 11111111101011   |
+| <img src="img/button-05.png" width="40" height="40" /> | 44   | 1         | 1         | 1/0         | 11111        | 101100       | => | 11111111101100   |
+| <img src="img/button-01.png" width="40" height="40" /> | 45   | 1         | 1         | 1/0         | 11111        | 101101       | => | 11111111101101   |
 
