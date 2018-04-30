@@ -39,9 +39,15 @@ so I ended up cracking it open with pliers to get to in. Inside there's
 pretty much what one would expect, a tube to act as the battery compartment, a
 small PCB in the middle doing the logic and an IR led to send the commands.
 
-![The enclosure, delicately opened](docs/img/remote-opened.jpg)
+![The enclosure, delicately opened](docs/img/enclosure-open.jpg)
 
-![The PCB](docs/img/remote-pcb.jpg)
+![The PCB - Front](docs/img/original-pcb-front.jpg)
+
+> As you can see there's quite a bit of corrosion on the PCB, either from moisture
+> or from battery acid. Cleaning it with some isopropyl alcohol might salvage this, but
+> I opted to toss it, rather that attempt that. The cut leads are from the IR led.
+
+![The PCB - Back](docs/img/original-pcb-back.jpg)
 
 ### RC5 transmitter IC
 
